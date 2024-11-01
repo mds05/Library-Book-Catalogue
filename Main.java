@@ -73,6 +73,11 @@ public class Main {
            else if(n==5){
             b.command();
            }
+           else if(n==3){
+                System.out.print("Enter which year you want to delete: ");
+                int year=sc.nextInt();
+                b.deleteNode(b.root,year);
+           }
            
         }
         sc.close();
